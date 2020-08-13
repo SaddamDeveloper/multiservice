@@ -73,6 +73,7 @@
       </div>
     </div>
   </div>
+  
   <!-- partial:partials/_footer.html -->
   <footer class="footer">
     <div class="container-fluid clearfix">
