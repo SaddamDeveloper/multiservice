@@ -17,7 +17,7 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="index.html">
+        <a class="nav-link" href="{{route('admin.dashboard')}}">
           <i class="icon-rocket menu-icon"></i>
           <span class="menu-title">Dashboard</span>
           <span class="badge badge-success">New</span>
@@ -85,8 +85,8 @@
         </a>
         <div class="collapse" id="form-elements">
           <ul class="nav flex-column sub-menu">
-            <li class="nav-item"><a class="nav-link" href="pages/forms/basic_elements.html">Service</a></li>                
-            <li class="nav-item"><a class="nav-link" href="pages/forms/advanced_elements.html">Vehicle Type</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ route('admin.service') }}">Service</a></li>                
+            <li class="nav-item"><a class="nav-link" href="{{ route('admin.vehicle_type_page') }}">Vehicle Type</a></li>
           </ul>
         </div>
       </li>
